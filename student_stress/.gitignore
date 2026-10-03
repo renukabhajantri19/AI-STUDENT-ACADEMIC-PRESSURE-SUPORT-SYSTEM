@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+academic_support.db
+private_uploads/
+node_modules/
+.android-build-tools/
