@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'edu.clarity.support'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'edu.clarity.support'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}

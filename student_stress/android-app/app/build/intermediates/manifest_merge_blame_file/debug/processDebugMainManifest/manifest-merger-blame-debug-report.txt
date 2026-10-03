@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.clarity.support"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:2:22-64
+12
+13    <application
+13-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:3:5-17:19
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:hardwareAccelerated="true"
+16-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="Clarity"
+17-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:5:9-32
+18        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+18-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:4:9-72
+19        android:usesCleartextTraffic="true" >
+19-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:6:9-44
+20        <activity
+20-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:8:9-16:20
+21            android:name="edu.clarity.support.MainActivity"
+21-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:9:13-41
+22            android:configChanges="orientation|screenSize"
+22-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:10:13-59
+23            android:exported="true" >
+23-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:11:13-36
+24            <intent-filter>
+24-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:12:13-15:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:13:17-69
+25-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:13:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:14:17-77
+27-->C:\Users\HP\Desktop\student_stress\android-app\app\src\main\AndroidManifest.xml:14:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

@@ -1,0 +1,8 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9
+cryptography>=43,<47
+PyMySQL>=1.1,<2
+python-dotenv>=1,<2
+reportlab>=4,<5
+Pillow>=10,<13
